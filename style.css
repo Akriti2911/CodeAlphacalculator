@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+  border-radius:5px;
+}
+
+.save-button {
+  background-color: #4CAF50;
+  color: white;
+  width: 291px;
+}
+
+.copy-button {
+  background-color: #008CBA;
+  color: white;
+  width: 60px;
+  margin-left: 5px;
+}
+
+.saved-link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.saved-link input {
+  width: 220px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
